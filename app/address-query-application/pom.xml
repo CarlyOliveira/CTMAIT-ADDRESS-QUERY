@@ -19,21 +19,39 @@
     <dependencies>
         <dependency>
             <groupId>br.com.ctmait</groupId>
-            <artifactId>address-query-core</artifactId>
+            <artifactId>address-query-domain</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
             <groupId>br.com.ctmait</groupId>
-            <artifactId>address-query-service-viacep</artifactId>
+            <artifactId>address-query-integration-dynamodb</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>br.com.ctmait</groupId>
+            <artifactId>address-query-integration-viacep</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>br.com.ctmait</groupId>
+            <artifactId>address-query-rest</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>br.com.ctmait</groupId>
+            <artifactId>address-query-infrastructure</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>br.com.ctmait</groupId>
+            <artifactId>address-query-e2e</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
     <build>
